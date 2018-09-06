@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width">
+   <!-- <link href="style.css" rel="stylesheets"> -->
+   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <title>Clock</title>
+</head>
+<body>
+
+<header class="sticky-top">
+    <nav class="navbar navbar-light" style="background-color: #F8B856;">
+        <a class="navbar-brand text-monospace" href="#">Bootstrap</a>
+    </nav>
+</header>
+
+	<div class="container py-4">
+		<div class="row justify-content-center">
+			<div class="card shadow-lg border-darks w-75">
+				<div class="card-header text-center h4" style="background-color:#F6AD3C;">スタッフ追加</div>
+				<div class="card-body">
+
+						<div class="form-group">
+							<p class="badge badge-light">名前(姓)</p>
+							<input type="email" class="form-control">
+							<p class="badge badge-light">名前(名)</p>
+							<input type="email" class="form-control">
+
+							<p class="badge badge-light">名前カナ(セイ)</p>
+							<input type="name" class="form-control">
+							<p class="badge badge-light">名前カナ(メイ)</p>
+							<input type="name" class="form-control">
+
+							<p class="badge badge-light">所属店舗</p>
+							<select class="custom-select" >
+								<option selected></option>
+								<option value1>1 渋谷本店</option>
+								<option value2>2 六本木店</option>
+								<option value3>3 銀座店</option>
+								<option value4>4 横浜店</option>
+							</select>
+							<div class="btn btn-success mt-2">追加</div>
+						</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="fixed-bottom" style="background-color:#F8B856;">
+    <div class="container">
+      <div class="row">
+        <p class="text-monospace">Footer</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
